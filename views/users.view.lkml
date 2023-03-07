@@ -81,6 +81,9 @@ view: users {
   }
 
   measure: count {
+    label: "label"
+    group_label: "group label"
+    group_item_label: "group item label"
     type: count
     drill_fields: [detail*]
   }
